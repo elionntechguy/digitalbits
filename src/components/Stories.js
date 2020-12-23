@@ -17,7 +17,7 @@ function Stories() {
 
             <h1 className="text-center" data-aos="fade-up" data-aos-offset="700">Stories</h1>
 
-            <div className="storiescardscontainer" data-aos-delay="100" data-aos-duration="500" data-aos-offset="700">
+            <div className="storiescardscontainer" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500" data-aos-offset="700">
 
                 <CardDeck className="storiescardsdeck">
 

@@ -65,11 +65,11 @@ function Contact() {
 
             <a name="contact" />
 
-            <h1 className="text-center">
+            <h1 className="text-center" data-aos="fade-up" data-aos-offset="900">
                 Get in touch with us
             </h1>
 
-            <Container>
+            <Container data-aos="fade-up" data-aos-delay="100" data-aos-duration="500" data-aos-offset="700">
 
 
                 <Row>

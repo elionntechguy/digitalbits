@@ -73,12 +73,36 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+  
+
   #midfooter {
     text-align: initial;
   }
 
   .footer {
     height: 300px;
+  }
+
+  .footer > .container > .row > .col-md-5 > img {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer > .container > .row > .col-md-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #footersocial {
+    display: flex;
+    justify-content: center;
+  }
+
+  #footersmall {
+    display: flex;
+    justify-content: center;
   }
 
 }
