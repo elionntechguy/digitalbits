@@ -1,23 +1,37 @@
+import React, { useEffect } from 'react'
 import logo from './logo.svg';
 import './App.css';
+import NavigationBar from './components/NavigationBar';
+import MainFirst from './components/MainFirst';
+import Priorities from './components/Priorities';
+import Work from './components/Work';
+import Services from './components/Services';
+import About from './components/About';
+import Stories from './components/Stories';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import AOS from 'aos';
+
 
 function App() {
+
+
+  const aos = useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavigationBar />
+      <MainFirst />
+      <Priorities />
+      <Work />
+      <Services />
+      <About />
+      <Stories />
+      <Contact />
+      <Footer />
     </div>
   );
 }

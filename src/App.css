@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+.card-deck {
+  margin: 80px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.jumbotroncardsdeck {
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  border: none;
+}
+
+
+@media (max-width: 812px) {
+  .card-deck {
+    flex-direction: column;
   }
+
+  .card {
+    width: 100% !important;
+    margin-bottom: 15px !important;
+  }
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.prioritiesdiv {
+}
+
+.storiesdiv {
+  margin-top: 60px;
+}
+
+.footer {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 200px;
+  margin-top: 100px;
+}
+
+.footername {
+  margin-top: 60px;
+}
+
+#footersocial {
+  margin-top: 45px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#footersocial > a {
+  margin: 20px;
+  color: #696969;
+  transition: 0.15s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#footersocial > a:hover {
+  color: #000;
 }
+
+
+#footersocial > a:hover {
+  text-decoration: none;
+}
+
+#footersmall {
+  color: #000;
+}
+
+#midfooter {
+  text-align: center;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  #midfooter {
+    text-align: initial;
+  }
+
+  .footer {
+    height: 300px;
+  }
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
