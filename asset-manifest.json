@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/digitalbits/static/css/main.ffcc63fa.chunk.css",
+    "main.js": "/digitalbits/static/js/main.a799915c.chunk.js",
+    "main.js.map": "/digitalbits/static/js/main.a799915c.chunk.js.map",
+    "runtime-main.js": "/digitalbits/static/js/runtime-main.277900c9.js",
+    "runtime-main.js.map": "/digitalbits/static/js/runtime-main.277900c9.js.map",
+    "static/js/2.0dde6aa0.chunk.js": "/digitalbits/static/js/2.0dde6aa0.chunk.js",
+    "static/js/2.0dde6aa0.chunk.js.map": "/digitalbits/static/js/2.0dde6aa0.chunk.js.map",
+    "static/js/3.60e8145b.chunk.js": "/digitalbits/static/js/3.60e8145b.chunk.js",
+    "static/js/3.60e8145b.chunk.js.map": "/digitalbits/static/js/3.60e8145b.chunk.js.map",
+    "index.html": "/digitalbits/index.html",
+    "static/css/main.ffcc63fa.chunk.css.map": "/digitalbits/static/css/main.ffcc63fa.chunk.css.map",
+    "static/js/2.0dde6aa0.chunk.js.LICENSE.txt": "/digitalbits/static/js/2.0dde6aa0.chunk.js.LICENSE.txt",
+    "static/media/acceptedd-01.b6f5a43c.jpg": "/digitalbits/static/media/acceptedd-01.b6f5a43c.jpg",
+    "static/media/fronadv-01.b222863c.jpg": "/digitalbits/static/media/fronadv-01.b222863c.jpg",
+    "static/media/logo.103b5fa1.svg": "/digitalbits/static/media/logo.103b5fa1.svg",
+    "static/media/mainbanner.ee726307.jpg": "/digitalbits/static/media/mainbanner.ee726307.jpg",
+    "static/media/mbajdistancen-01.6ba9b853.jpg": "/digitalbits/static/media/mbajdistancen-01.6ba9b853.jpg",
+    "static/media/sample.9d2ef92e.jpg": "/digitalbits/static/media/sample.9d2ef92e.jpg",
+    "static/media/sample1.c2ccb23a.jpeg": "/digitalbits/static/media/sample1.c2ccb23a.jpeg",
+    "static/media/sample2.9a1559c1.jpg": "/digitalbits/static/media/sample2.9a1559c1.jpg",
+    "static/media/transparentpng.652442e3.png": "/digitalbits/static/media/transparentpng.652442e3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.277900c9.js",
+    "static/js/2.0dde6aa0.chunk.js",
+    "static/css/main.ffcc63fa.chunk.css",
+    "static/js/main.a799915c.chunk.js"
+  ]
+}
