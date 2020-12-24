@@ -92,8 +92,16 @@ function Contact() {
 
 
             </Container>
+            
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            
 
         </Styles>
+
     )
 }
 
